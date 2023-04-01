@@ -31,7 +31,6 @@ a {
 :active {
     outline: none;
 }
-
 /* -----------------------General---------------------------- */
 body.lock {
     overflow: hidden;
@@ -253,25 +252,25 @@ body.lock {
     right: 50px;
 }
 .swiper-button-prev::after {
-    content: url('../img/left_arrow.svg');
+    content: url('../public/svg/icons/left_arrow.svg');
 }
 .swiper-button-prev:hover::after {
-    content: url('../img/left_arrow_hover.svg');
+    content: url('../public/svg/icons/left_arrow_hover.svg');
 }
 .swiper-button-prev:active::after {
-    content: url('../img/left_arrow_click.svg');
+    content: url('../public/svg/icons/left_arrow_click.svg');
 }
 .swiper-button-next {
     right: 0;
 }
 .swiper-button-next::after {
-    content: url('../img/right_arrow.svg');
+    content: url('../public/svg/icons/right_arrow.svg');
 }
 .swiper-button-next:hover:after {
-    content: url('../img/right_arrow_hover.svg');
+    content: url('../public/svg/icons/right_arrow_hover.svg');
 }
 .swiper-button-next:active:after {
-    content: url('../img/right_arrow_click.svg');
+    content: url('../public/svg/icons/right_arrow_click.svg');
 }
 
 
@@ -292,7 +291,7 @@ body.lock {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/photo/slide_1.jpg');
+    background-image: url('../public/image/photo/slide_1.jpg');
     background-size: cover;
     z-index: -1;
 }
@@ -303,7 +302,7 @@ body.lock {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/photo/slide_2.png');
+    background-image: url('../public/image/photo/slide_2.png');
     background-size: cover;
     z-index: -1;
 }
@@ -314,7 +313,7 @@ body.lock {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/photo/slide_3.png');
+    background-image: url('../public/image/photo/slide_3.png');
     background-size: cover;
     z-index: -1;
 }
@@ -378,7 +377,7 @@ body.lock {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/photo/about.png');
+    background-image: url('../public/image/photo/about.png');
     background-size: cover;
     z-index: -1;
 }
@@ -410,7 +409,7 @@ body.lock {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/photo/service.png');
+    background-image: url('../public/image/photo/service.png');
     background-size: cover;
     z-index: -1;
 }
@@ -470,7 +469,7 @@ body.lock {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/photo/write.png');
+    background-image: url('../public/image/photo/write.png');
     background-attachment: fixed;
     background-size: cover;
     z-index: -1;
@@ -505,7 +504,7 @@ body.lock {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/photo/work.png');
+    background-image: url('../public/image/photo/work.png');
     background-size: cover;
     z-index: -1;
 }
@@ -556,7 +555,7 @@ body.lock {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/photo/review.png');
+    background-image: url('../public/image/photo/review.png');
     background-size: cover;
     z-index: -1;
 }
@@ -675,7 +674,7 @@ body.lock {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/photo/contact.png');
+    background-image: url('../public/image/photo/contact.png');
     background-size: cover;
     z-index: -1;
 }
@@ -1020,7 +1019,7 @@ margin-bottom: 30px;
 .popup__img {
     width: 250px;
     height: 250px;
-    background-image: url(../img/photo.png);
+    background-image: url(../public/image/photo.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
