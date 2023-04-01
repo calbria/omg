@@ -126,14 +126,10 @@ body.lock {
     background-color: #D7D7D7;
     color: var(--dark);
 }
-/* .btn:enabled {
-    opacity: 0.5;
-} */
+
 
 /* Icons */
-.card__icon {
-    
-}
+
 .icon {
     width: 70px;
     height: 70px;
@@ -217,8 +213,7 @@ body.lock {
     overflow: hidden;
 }
 
-.swiper {
-}
+
 .swiper-wrapper {
     cursor: grab;
 }
@@ -438,9 +433,7 @@ body.lock {
     gap: 50px 35px;
 }
 
-.card_small {
-    
-}
+
 
 
 .card__icon_services {
@@ -535,9 +528,7 @@ body.lock {
     gap: 45px 30px;
 }
 
-.card_work {
-    /* width: 537px; */
-}
+
 
 .card__icon_work {
     margin-left: 45px;
@@ -673,7 +664,7 @@ body.lock {
 
 .layout__screen_contact {
     position: relative;
-    /* background-image: url(../img/screen_photo/screen_contact.jpg); */
+    
     padding-top: 60px;
     margin-bottom: 0;
 }
@@ -710,8 +701,7 @@ body.lock {
     margin-bottom: 20px;
     
 }
-.form-block {
-}
+
 .form-block-1 {
     display: grid;
     row-gap: 30px;
@@ -725,7 +715,7 @@ body.lock {
 .contact-form__label {
     color: var(--white);
     display: block;
-    /* margin-bottom: 20px; */
+   
     font-weight: 500;
 }
 .contact-form__star {
@@ -800,10 +790,7 @@ body.lock {
 }
 
 /*-------------------------- Footer --------------------------*/
-.footer {
-    
 
-}
 .layout__footer {
     text-align: center;
     padding-top: 28px;
@@ -919,9 +906,7 @@ body.lock {
 }
 
 /* ---------- Privacy policy -----------------*/
-.privacy-layout {
 
-}
 
 .container_privacy {
     padding-top: 157px;
@@ -956,8 +941,7 @@ body.lock {
     margin-bottom: 35px;
     color: var(--orange);
 }
-.screen-text {
-}
+
 .privacy-layout__screen-text {
     padding-bottom: 35px;
 }
@@ -966,8 +950,7 @@ body.lock {
     text-align: center;
     margin: 25px auto 50px auto;
 }
-.privacy-list {
-}
+
 .privacy-list__item {
     padding-bottom: 35px;
 }
