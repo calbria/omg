@@ -1,0 +1,103 @@
+// # font
+// $font-family-cstm-name: 'CSTM';
+$font-family-gotham-pro-name: 'Gotham Pro';
+// $font-family-agg-dm-name: 'AGG Dm';
+// $font-family-agg-bk-name: 'AGG Bk';
+// $font-family-agg-exlt-name: 'AGG ExLt';
+// $font-family-suisse-name: 'Suisse';
+
+// $font-family-cstm: $font-family-cstm-name, sans-serif;
+$font-family-gotham-pro: $font-family-gotham-pro-name, sans-serif;
+// $font-family-agg-dm: $font-family-agg-dm-name, sans-serif;
+// $font-family-agg-bk: $font-family-agg-bk-name, sans-serif;
+// $font-family-agg-exlt: $font-family-agg-exlt-name, sans-serif;
+// $font-family-suisse: $font-family-suisse-name, sans-serif;
+
+$font-size-default: 16;
+
+// # colors
+$color-black: #000000;
+$color-white: #ffffff;
+
+// general gradation white -> black
+$color-basic-100: #ffffff;
+$color-basic-110: #F2F2F2;
+$color-basic-115: #ddd;
+$color-basic-120: #cacaca;
+$color-basic-130: #b2b2b2;
+$color-basic-140: #5A5A5A;
+$color-basic-900: #000000;
+
+$color-primary-100: #FF0000;
+$color-primary-110: #ef0404;
+$color-primary-120: #d90303;
+
+$color-social-facebook: #4676f8;
+
+// # paths
+$fonts-path: '/fonts';
+$images-path: '/images';
+
+$sans:                      sans-serif !default;
+$serif:                     serif !default;
+
+$thin:                      100 !default;
+$light:                     300 !default;
+$regular:                   400 !default;
+$medium:                    500 !default;
+$semiBold:                  600 !default;
+$bold:                      700 !default;
+$ultraBold:                 800 !default;
+
+// Easing presets
+// --------------------------
+$linear: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+$ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+$ease-in: cubic-bezier(0.42, 0, 1, 1);
+$ease-in-quad: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+$ease-in-cubic: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+$ease-in-quart: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+$ease-in-quint: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+$ease-in-sine: cubic-bezier(0.47, 0, 0.745, 0.715);
+$ease-in-expo: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+$ease-in-circ: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+$ease-out: cubic-bezier(0, 0, 0.58, 1);
+$ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+$ease-out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1);
+$ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
+$ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
+$ease-out-sine: cubic-bezier(0.39, 0.575, 0.565, 1);
+$ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+$ease-out-circ: cubic-bezier(0.075, 0.82, 0.165, 1);
+$ease-in-out: cubic-bezier(0.42, 0, 0.58, 1);
+$ease-in-out-quad: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+$ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1);
+$ease-in-out-quart: cubic-bezier(0.77, 0, 0.175, 1);
+$ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
+$ease-in-out-sine: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+$ease-in-out-expo: cubic-bezier(1, 0, 0, 1);
+$ease-in-out-circ: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+// Animation
+// -------------------------
+$trans-time: 0.3s;
+$trans-time-fast: $trans-time * 0.5;
+$trans-time-slow: $trans-time * 1.5;
+$trans-time-super-slow: $trans-time * 2;
+$ease-default: $ease;
+
+// ZIndex
+// -------------------------
+$level0: 0;
+$level1: 10;
+$level2: 20;
+$level3: 30;
+$level4: 40;
+$level5: 50;
+$level6: 60;
+$level7: 70;
+$level8: 80;
+
+// # specific
+$gap: 90;
+$gap-sm: 15;
