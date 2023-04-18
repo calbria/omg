@@ -1,0 +1,21 @@
+@mixin h1-1() {
+  font-weight: $ultraBold;
+  font-size: em(73);
+  font-family: $font-family-gotham-pro;
+  font-stretch: 151%;
+  line-height: em(43, 73);
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-variation-settings: 'GRAD' 150, 'slnt' 0, 'XTRA' 68, 'XOPQ' 596, 'YOPQ' 79, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'opsz' 144;
+}
+
+@mixin h1-2() {
+  font-weight: $ultraBold;
+  font-size: em(73);
+  font-family: $font-family-gotham-pro;
+  font-stretch: 151%;
+  line-height: em(43, 73);
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-variation-settings: 'GRAD' 150, 'slnt' 0, 'XTRA' 68, 'XOPQ' 110, 'YOPQ' 79, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'opsz' 194;
+}
